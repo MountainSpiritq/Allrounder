@@ -1,0 +1,11 @@
+
+pnpm create vite
+	-add project name
+	-select react as your framework
+	-standard javascript
+
+cd -yourproject name-
+pnpm install
+pnpm run dev
+
+easy as that :)

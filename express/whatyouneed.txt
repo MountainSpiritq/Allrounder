@@ -1,0 +1,13 @@
+pnpm init
+pnpm i cors
+pnpm i express
+pnpm i mysql2
+pnpm i nodemon
+
+//scriptek amik kellenek:
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },

@@ -1,0 +1,117 @@
+::root {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.homeMain {
+  background-image: url("house.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.homeButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px black;
+}
+
+.homeButton {
+  background-color: rgba(110, 73, 4, 0.774);
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.goHome {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.orderForm {
+
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 2%;
+}
+
+.propertiesHome {
+  background: #2a9b3f;
+  background: linear-gradient(90deg, rgba(42, 155, 63, 1) 0%, rgba(169, 199, 87, 1) 100%, rgba(237, 221, 83, 1) 100%);
+  background-position: center;
+  background-size: cover;
+ min-height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: auto;
+  text-align: center;
+}
+
+.cardContainer{
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}  
+
+.card{
+  border: 1px solid red;
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cardImg{
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.houseCard{
+  background-color: aquamarine;
+  padding: 1rem;
+}
